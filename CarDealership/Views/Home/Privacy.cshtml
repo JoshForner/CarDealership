@@ -1,0 +1,6 @@
+﻿@model List<Cars>
+
+@foreach(Cars c in Model)
+{
+    <p>@c.CarMake @c.CarModel  @c.CarColor @c.CarYear.Year</p>
+}
